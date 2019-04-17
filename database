@@ -1,0 +1,70 @@
+CREATE TABLE States
+(State VARCHAR (20) PRIMARY KEY NOT NULL,
+Grain_Cost_lb DECIMAL,
+Hardwood_Pulp_lb DECIMAL,
+Straw_lb DECIMAL,
+Min_Wage_hr DECIMAL NULL,
+sqft_$ DECIMAL NULL,
+kw_hr DECIMAL NULL);
+INSERT INTO States
+
+
+
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Alabama', 2.87, 102, 11.24, 7.25, 1844, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Alaska', 2.87, 340, 19.28, 9.89, 1844, 10);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Arizona', 2.87, 181, 9.8, 11, 1365, 10);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Arkansas', 2.87, 96, 8.5, 9.25, 1025, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('California', 2.87, 183, 14.9, 12, 2269, 10);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Colorado', 2.87, 176, 9.49, 11.1, 1681, 10);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Connecticut', 2.87, 200, 17.44, 10.1, 1976, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Delaware', 2.87, 180, 9.96, 8.75, 1507, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Florida', 2.87, 176, 12.27, 8.46, 1423, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Georgia', 2.87, 93, 9.67, 7.25, 1341, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Hawaii', 4, 400, 9.51, 10.1, 2337, 10);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Idaho', 2.87, 138, 30.64, 7.25, 1213, 10);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Illinois', 2.87, 140, 7.5, 8.25, 1603, 10);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Indiana', 2.87, 175, 8.73, 7.25, 1089, 10);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Iowa', 2.75, 111, 10.47, 7.25, 1205, 10);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Kansas', 2.87, 118, 9.24, 7.25, 1314, 10);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Kentucky', 2.87, 135, 8.26, 7.25, 1123, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Louisiana', 2.87, 94, 9.65, 7.25, 1233, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Maine', 2.87, 161, 8.6, 11, 1313, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Maryland', 2.87, 129, 12.75, 10.1, 1915, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Massachusetts', 2.87, 146, 10.54, 12, 2108, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Michigan', 2.87, 171, 17.02, 9.45, 1231, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Minnesota', 2.11, 109, 11.08, 8.04, 1500, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Mississippi', 2.87, 89, 9.95, 7.25, 1090, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Missouri', 2.87, 102, 10.7, 8.6, 1207, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Montana', 2.6, 134, 7.96, 8.5, 1367, 10);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Nebraska', 2.87, 95, 10, 9, 1334, 10);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Nevada', 2.87, 186, 8.48, 8.25, 1428, 10);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('New Hampshire', 2.87, 166, 7.42, 7.25, 1874, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('New Jersey', 2.87, 150, 16.55, 8.85, 2348, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('New Mexico', 2.87, 168, 11.82, 7.5, 1244, 10);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('New York', 2.87, 146, 9.54, 11.1, 2036, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('North Carolina', 2.87, 116, 12.99, 7.25, 1242, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('North Dakota', 2.65, 103, 8.49, 7.25, 1356, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Ohio', 2.87, 135, 8.43, 8.55, 1214, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Oklahoma', 2.87, 81, 9.73, 7.25, 1183, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Oregon', 2.87, 169, 7.1, 11.25, 1629, 10);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Pennsylvania', 2.87, 180, 8.73, 7.25, 1348, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Rhode Island', 2.87, 181, 8.47, 10.5, 1782, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('South Carolina', 2.87, 152, 18.39, 7.25, 1195, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('South Dakota', 2.66, 115, 9.68, 9.1, 1283, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Tennessee', 2.87, 121, 8.82, 7.25, 1184, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Texas', 2.87, 108, 10.69, 7.25, 1513, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Utah', 2.87, 140, 7.88, 7.25, 1467, 10);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Vermont', 2.87, 168, 7.86, 10.78, 1527, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Virginia', 2.87, 136, 15.56, 7.25, 1718, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Washington', 2.87, 175, 8.29, 12, 1806, 10);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('West Virginia', 2.87, 140, 8.67, 8.75, 984, 8);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Wisconsin', 2.87, 123, 8.38, 7.25, 1358, 10);
+INSERT INTO States(State, Grain_Cost_lb, Hardwood_Pulp_lb, Straw_lb, Min_Wage_hr, sqft_$, kw_hr) VALUES ('Wyoming', 2.87, 143, 10.68, 7.25, 1386, 10);
+
+
+
+
+SELECT State, 
+Grain_Cost_lb + Hardwood_Pulp_lb + Straw_lb + Min_Wage_hr + sqft_$ + kw_hr AS “Total”
+FROM States
+ORDER BY “Total” DESC;
